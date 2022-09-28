@@ -1,9 +1,18 @@
+# https://yaml.org/spec/1.2.2/
+#
+# --- indicates the start of the YAML documents
+#
+# In a YAML file, multiple --- lines can exist and that means the start of the documents
+# On hindsight, you can have multiple YAML documents on a YAML file
+#
+# Yaml consists of a key-value pairs
+# Yaml separates by 2 spaces
+#
+---
 Name: John
 LastName: Doe
-# Yaml separates by 2 spaces
-# Yaml consists of a key-value pairs
 
-# In here YAML shows a lists
+---
 Shopping:
   - Apple
   - Orange
@@ -16,14 +25,19 @@ Instructor-full:
   level: 100
 
 sections-list:
-- "Introduction"
-- "Deploying your first Function"
-- "Learning AWS Lambda in Depth"
-- "Real World Examples"
+  - "Introduction"
+  - "Deploying your first Function"
+  - "Learning AWS Lambda in Depth"
+  - "Real World Examples"
 Lectures:
-- lecture-id: 1
-  lecture-name: intro
-  lecture-length: "5:03"
-- lecture-id: 2
-  lecture-name: AWS Lambda
-  lecture-length: "10:47"
+  - lecture-id: 1
+    lecture-name: intro
+    lecture-length: "5:03"
+  - lecture-id: 2
+    lecture-name: AWS Lambda
+    lecture-length: "10:47"
+
+Boolean: "True"
+
+Bolle:
+  asdasd: "APOAS"
