@@ -1,0 +1,29 @@
+Name: John
+LastName: Doe
+# Yaml separates by 2 spaces
+# Yaml consists of a key-value pairs
+
+# In here YAML shows a lists
+Shopping:
+  - Apple
+  - Orange
+  - Carrot
+
+Instructor: John Doe
+Instructor-full:
+  first-name: John
+  last-name: Doe
+  level: 100
+
+sections-list:
+- "Introduction"
+- "Deploying your first Function"
+- "Learning AWS Lambda in Depth"
+- "Real World Examples"
+Lectures:
+- lecture-id: 1
+  lecture-name: intro
+  lecture-length: "5:03"
+- lecture-id: 2
+  lecture-name: AWS Lambda
+  lecture-length: "10:47"
