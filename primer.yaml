@@ -6,8 +6,8 @@
 # On hindsight, you can have multiple YAML documents on a YAML file
 #
 # Yaml consists of a key-value pairs
-# Yaml separates by 2 spaces
-#
+# Yaml is separated by 2 spaces. No TAB.
+# 
 ---
 Name: John
 LastName: Doe
